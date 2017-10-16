@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <title>tables</title>
+ </head>
+
+
+  <body>
+    <table>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+    }
+    table th,
+    table td {
+        padding: 0 3px;
+    }
+    table.brd th,
+    table.brd td {
+        border: 1px solid #000;
+    }
+</style>
+ <table>
+	<table class="brd">
+       <caption>Просто табличка</caption>
+      <thead>
+        <tr>
+          <th>Столбец 1</th>
+          <th>Столбец 2</th>
+          <th>Столбец 3</th>
+          <th>Столбец 4</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Подвал столбец 1</td>
+          <td>Подвал столбец 2</td>
+          <td>Подвал столбец 3</td>
+          <td>Подвал столбец 4</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td colspan="3">Строка2 Ячейка1 (соединена с ячейками 2 и 3)</td>
+          <td rowspan="3">Строка2 Ячейка4 (соединена с ячейкой 4 в строках 3 и 4)</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">Строка3 Ячейка1 (соединена с ячейкой 2 строки 3 и ячейками 1 и 2 строки 4)</td>
+          <td>Строка3 Ячейка3</td>
+        </tr>
+        <tr>
+          <td>Строка4 Ячейка3</td>
+        </tr>         
+      </tbody>
+     </table>
+</table>	
+
+<p>♥время разных окошек♥</p>
+
+<p>испиши окошко<input type="text" name="..."></p><p></p>
+
+<p>введи пароль<input type="password" name="..."></p><p></p>
+
+<p>любимый мультик?</p>
+<p><input type="checkbox" name="...">винкс</p><p></p>
+<p><input type="checkbox" name="...">финес и ферб</p><p></p>
+<p><input type="checkbox" name="...">мультики для маленьких</p><p></p>
+
+<p>да или нет?</p>
+<p><input type="radio" name="...">да</p><p></p>
+<p><input type="radio" name="...">нет</p><p></p>
+
+<p><input type="file" name="..."></p>
+
+<p>разные кнопки</p>
+<p>сброс значений<input type="reset" name="..."></p><p></p>
+<p>отправка данных<input type="submit" name="..."></p><p></p>
+<p>обычная кнопка<input type="button" name="..."></p><p></p>
+
+<p>e-mail<input type="email" name="..."></p><p></p>
+
+<p>поиск<input type="search" name="..."></p><p></p>
+
+<p>номер тлф<input type="tel" name="..."></p><p></p>
+
+<p>URL адрес<input type="url" name="..."></p><p></p>
+
+<p>поиск чисел<input type="number" name="..." min="..." max="..." step="..."></p><p></p>
+
+<input type="range" name="..."><p></p>
+
+<select name="..." size="..." multiple>
+    <option value="...">Элемент списка 1</option>
+    <option value="...">Элемент списка 2</option>
+    <option value="...">Элемент списка 3</option>
+</select>
+  </body>
+  </html>
