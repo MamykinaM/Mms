@@ -1,0 +1,63 @@
+.osn{
+  @font-face {
+    font-family: Roboto-Italic;
+    src: url(dz3\Roboto-Italic.ttf);
+  }
+  color: #222222;
+  quotes: '«' '»';
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+h2{
+  font-size: 1,5rem;
+  font-weight: 500;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+h3{
+  font-size: 1,3rem;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 1,1rem;
+  font-weight: 600;
+}
+
+ol, figure{
+  margin: 15px, 15px, 15px, 15px;
+  padding: 15px, 40px. 15px, 40px;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
+
+a{
+  color: #0088ff;
+  text-decoration: none;
+}
+
+p{
+  text-align: justify;
+  text-indent: 40px;
+}
+
+img{
+  width: 100%;
+  border-radius: 3px;
+}
+
+blockquote{
+  margin: 15px, 15px, 15px, 15px;
+  font-style: italic;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+}
